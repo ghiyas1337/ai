@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pak Guru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Pak Guru</h1>
+    <div class="input-question">
+        <label for="question-input">Masukkan Soal:</label>
+        <input type="text" id="question-input" placeholder="Tulis soal di sini..." aria-label="Input Soal">
+        <button aria-label="Submit Answer">
+            Jawaban
+        </button>
+    </div>
+    <img src="loading.gif" alt="Loading..." id="loading" width="80px" style="display:none;">
+    <div class="output">
+        <pre id="text"></pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
