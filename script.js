@@ -6,7 +6,7 @@ let btn = document.querySelector("button");
 let text = document.querySelector("#text");
 let output = document.querySelector(".output");
 
-const Api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDwX1LwqyZk9URWXnYTmB6q8GKVYlxPGRA";
+const Api_url = "https://api.groq.ai/org_01jenx12zvf8qvjv8rqfnq4gt4";
 
 let fileDetails = {
   mime_type: null,
