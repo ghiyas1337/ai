@@ -8,11 +8,11 @@ const colors = [
 ];
 const imageUrls = [
 	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg", // Replace with your image URLs
-	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg",
-	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg",
-	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg",
-	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg",
-	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg"
+	"https://graph.org/file/e35d7044ed26f07e1bd53-2d89051f94b0c733c2.jpg",
+	"https://graph.org/file/32252f59e4b4a7f2d93bd-ca66b70b7bc796873f.jpg",
+	"https://graph.org/file/035d76f056cd5e72f4857-82f5b71eed5ad47fc7.jpg",
+	"https://graph.org/file/23e266d42059bdd10ac25-90158eea125f0ee5b4.jpg",
+	"https://graph.org/file/14dfcb17d0b94cc5a0a2a-b76c3e1034594e6aa7.jpg"
 ];
 let letterIndex = 0;
 
