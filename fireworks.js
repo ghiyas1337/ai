@@ -6,14 +6,15 @@ const colors = [
 	"#ff4c4c",
 	"#ffcc00"
 ];
-const letters = "SEPTI IMUT";
+const imageUrls = [
+	"image1.png", // Replace with your image URLs
+	"image2.png",
+	"image3.png",
+	"image4.png",
+	"image5.png",
+	"image6.png"
+];
 let letterIndex = 0;
-
-function getRandomLetter() {
-	const letter = letters.charAt(letterIndex);
-	letterIndex = (letterIndex + 1) % letters.length;
-	return letter;
-}
 
 function createFirework(x, y) {
 	const launchHeight =
@@ -37,11 +38,11 @@ function createFirework(x, y) {
 }
 
 function createBurst(x, y) {
-	const numLetters = 15;
-	const numSparkles = 50;
+	const numImages = 15; // Number of images to display
+	const numSparkles = 50; // Number of sparkles
 
-	// Letters
-	for (let i = 0; i < numLetters; i++) {
+	// Images
+	for (let i = 0; i < numImages; i++) {
 			createParticle(x, y, false);
 	}
 
@@ -57,8 +58,11 @@ function createParticle(x, y, isSparkle) {
 	const instruction = document.querySelector('.instructions').style.display = 'none';
 
 	if (!isSparkle) {
-			el.textContent = getRandomLetter();
-			el.style.color = colors[Math.floor(Math.random() * colors.length)];
+			const img = document.createElement("img");
+			img.src = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+			img.style.width = "30px"; // Adjust size as needed
+			img.style.height = "30px"; // Adjust size as needed
+			el.appendChild(img);
 	} else {
 			el.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 	}
@@ -100,11 +104,10 @@ function animateParticle(el, isSparkle) {
 
 document.addEventListener("click", (e) => {
 	createFirework(e.clientX, e.clientY);
-
 });
 
 window.onload = function () {
 	const centerX = window.innerWidth / 2;
 	const centerY = window.innerHeight / 2;
 	createFirework(centerX, centerY);
-};
+}
