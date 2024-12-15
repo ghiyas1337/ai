@@ -7,12 +7,12 @@ const colors = [
 	"#ffcc00"
 ];
 const imageUrls = [
-	"https://graph.org/file/3320f01795ae0ef0ca186-91d52c5686ffe45624.jpg",
-	"https://graph.org/file/239017338e36f7d3b9627-597f8c9c6dd95a849d.jpg",
-	"https://graph.org/file/2c93b234507e582519aaf-0b04e80ab34992f2cc.jpg",
-	"https://graph.org/file/466bd7c8baf00bbf2b541-da412fc88da015262c.jpg",
-	"https://graph.org/file/d85f5799a628c5a1b3dd3-d735518accd1a87d01.jpg",
-	"https://graph.org/file/0327535ab822d08a489ea-d4f7db6ac36c7c4ca6.jpg"
+	"https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi1.jpg",
+	"https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi2.jpg",
+	"https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi3.jpg",
+	"https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi4.jpg",
+	"https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi5.jpg",
+	"https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi6.jpg"
 ];
 let letterIndex = 0;
 
