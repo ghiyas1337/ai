@@ -38,7 +38,7 @@ function createFirework(x, y) {
 }
 
 function createBurst(x, y) {
-	const numImages = 20;
+	const numImages = 50;
 	const numSparkles = 50;
 
 	
