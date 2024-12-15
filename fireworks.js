@@ -7,12 +7,12 @@ const colors = [
 	"#ffcc00"
 ];
 const imageUrls = [
-	"image1.png", // Replace with your image URLs
-	"image2.png",
-	"image3.png",
-	"image4.png",
-	"image5.png",
-	"image6.png"
+	"https://ibb.co.com/2vHrX6L", // Replace with your image URLs
+	"https://ibb.co.com/nLW61xX",
+	"https://ibb.co.com/h1hyrgV",
+	"https://ibb.co.com/QQTK3LT",
+	"https://ibb.co.com/G9hdYtQ",
+	"https://ibb.co.com/Z1ZbfF5"
 ];
 let letterIndex = 0;
 
