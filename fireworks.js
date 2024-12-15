@@ -38,7 +38,7 @@ function createFirework(x, y) {
 }
 
 function createBurst(x, y) {
-	const numImages = 15; // Number of images to display
+	const numImages = 20; // Number of images to display
 	const numSparkles = 50; // Number of sparkles
 
 	// Images
@@ -60,8 +60,8 @@ function createParticle(x, y, isSparkle) {
 	if (!isSparkle) {
 			const img = document.createElement("img");
 			img.src = imageUrls[Math.floor(Math.random() * imageUrls.length)];
-			img.style.width = "100px"; // Adjust size as needed
-			img.style.height = "100px"; // Adjust size as needed
+			img.style.width = "70px"; // Adjust size as needed
+			img.style.height = "70px"; // Adjust size as needed
 			el.appendChild(img);
 	} else {
 			el.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
