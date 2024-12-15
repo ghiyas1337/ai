@@ -7,7 +7,7 @@ const colors = [
 	"#ffcc00"
 ];
 const imageUrls = [
-	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg", // Replace with your image URLs
+	"https://graph.org/file/fe556b2e626f7b37a06d5-7220df81e76be02396.jpg",
 	"https://graph.org/file/e35d7044ed26f07e1bd53-2d89051f94b0c733c2.jpg",
 	"https://graph.org/file/32252f59e4b4a7f2d93bd-ca66b70b7bc796873f.jpg",
 	"https://graph.org/file/035d76f056cd5e72f4857-82f5b71eed5ad47fc7.jpg",
@@ -38,15 +38,15 @@ function createFirework(x, y) {
 }
 
 function createBurst(x, y) {
-	const numImages = 20; // Number of images to display
-	const numSparkles = 50; // Number of sparkles
+	const numImages = 20;
+	const numSparkles = 50;
 
-	// Images
+	
 	for (let i = 0; i < numImages; i++) {
 			createParticle(x, y, false);
 	}
 
-	// Sparkles
+	
 	for (let i = 0; i < numSparkles; i++) {
 			createParticle(x, y, true);
 	}
@@ -60,8 +60,8 @@ function createParticle(x, y, isSparkle) {
 	if (!isSparkle) {
 			const img = document.createElement("img");
 			img.src = imageUrls[Math.floor(Math.random() * imageUrls.length)];
-			img.style.width = "70px"; // Adjust size as needed
-			img.style.height = "70px"; // Adjust size as needed
+			img.style.width = "70px";
+			img.style.height = "70px";
 			el.appendChild(img);
 	} else {
 			el.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
